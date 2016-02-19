@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.beije.wadata</groupId>
+		<artifactId>Wadata</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>Wadata-ejb</artifactId>
+	<name>wadata-ejb</name>
+	<description>Wadata ejb implementations</description>
+
+
+	<dependencies>
+		<!-- <dependency> <groupId>javax.ejb</groupId> <artifactId>ejb</artifactId> 
+			<version>2.1</version> </dependency> -->
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+
+
+	</dependencies>
+</project>
