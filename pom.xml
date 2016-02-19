@@ -10,5 +10,6 @@
   	<module>Wadata-ejb</module>
   	<module>Wadata-dao</module>
   	<module>Wadata-rest</module>
+  	<module>Wadata-api</module>
   </modules>
 </project>
