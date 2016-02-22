@@ -12,10 +12,12 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 
+import org.beije.api.StockDTO;
 import org.beije.api.StockResponse;
-import org.beije.api.Chart.Chart;
-import org.beije.api.Chart.Dataset;
-import org.beije.jpa.entity.Stock;
+
+
+import org.beije.api.charting.Chart;
+import org.beije.api.charting.Dataset;
 
 import com.google.gson.Gson;
 //import javax.persistence.EntityManager;
@@ -45,10 +47,10 @@ public class StockResource {
 		
 		StockResponse response = new StockResponse();
 		
-		Stock a = new Stock(1L, "Primo");
-		Stock b = new Stock(2L, "Secondo");
+		StockDTO a = new StockDTO(1L, "Primo");
+		StockDTO b = new StockDTO(2L, "Secondo");
 		
-		List<Stock> stocks = new ArrayList<Stock>();
+		List<StockDTO> stocks = new ArrayList<StockDTO>();
 		stocks.add(a);
 		stocks.add(b);
 		String ret = "";

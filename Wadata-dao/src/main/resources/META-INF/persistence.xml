@@ -5,10 +5,7 @@
 		<class>org.beije.jpa.entity.Stock</class>
 		<properties>
 			<property name="eclipselink.target-database" value="DERBY"/>
-			<property name="javax.persistence.jdbc.driver" value="com.ibm.db2.jcc.DB2Driver"/>
-			<!--com.ibm.db2.jcc.DB2Driver 
-				org.apache.derby.jdbc.ClientDriver
-			-->
+			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/BeijeCon;create=true"/>
 			<property name="javax.persistence.jdbc.user" value="APP"/>
 			<property name="javax.persistence.jdbc.password" value="APP"/>
