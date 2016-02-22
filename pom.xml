@@ -11,5 +11,6 @@
   	<module>Wadata-dao</module>
   	<module>Wadata-rest</module>
   	<module>Wadata-api</module>
+  	<module>Wadata-ear</module>
   </modules>
 </project>
