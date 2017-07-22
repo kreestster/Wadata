@@ -1,4 +1,4 @@
-package org.beige.jpa.main;
+package org.beije.jpa.main;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args){
 		Stock stock = new Stock();
 		
-		stock.setName("Bull");
+		stock.setName("NewStock");
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("BeijeJPA");
 		

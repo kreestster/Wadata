@@ -1,4 +1,4 @@
-package org.beije.api.Chart;
+package org.beije.api.charting;
 
 import java.util.List;
 
